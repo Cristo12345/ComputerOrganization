@@ -1,0 +1,1282 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 320 1352 488 1368)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "IN" (rect 5 0 17 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 328 1376 496 1392)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "WR" (rect 5 0 24 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 200 1304 368 1320)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "dec[15..0]" (rect 5 0 54 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 808 -552 984 -536)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "OUT" (rect 90 0 112 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 592 1264 744 1360)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman0" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 1136 744 1232)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman1" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 1024 744 1120)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman2" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 896 744 992)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman3" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 776 744 872)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman4" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 656 744 752)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman5" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 536 744 632)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman6" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 -424 744 -328)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman14" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 -304 744 -208)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman13" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 -184 744 -88)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman12" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 -64 744 32)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman11" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 56 744 152)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman10" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 176 744 272)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman9" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 296 744 392)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman8" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 416 744 512)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman7" (rect 8 80 58 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(symbol
+	(rect 592 -544 744 -448)
+	(text "Suleiman_MasterSlave" (rect 5 0 133 14)(font "Arial" (font_size 8)))
+	(text "Suleiman15" (rect 8 80 64 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "IN" (rect 21 27 31 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Select_Chip" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "Select_Chip" (rect 21 43 88 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Write_Enable" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "Write_Enable" (rect 21 59 95 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "OUT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "OUT" (rect 107 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 80))
+	)
+)
+(connector
+	(pt 496 1384)
+	(pt 536 1384)
+)
+(connector
+	(pt 536 -480)
+	(pt 592 -480)
+)
+(connector
+	(pt 592 1328)
+	(pt 536 1328)
+)
+(connector
+	(pt 536 1328)
+	(pt 536 1384)
+)
+(connector
+	(pt 592 1200)
+	(pt 536 1200)
+)
+(connector
+	(pt 536 1200)
+	(pt 536 1328)
+)
+(connector
+	(pt 592 1088)
+	(pt 536 1088)
+)
+(connector
+	(pt 536 1088)
+	(pt 536 1200)
+)
+(connector
+	(pt 592 960)
+	(pt 536 960)
+)
+(connector
+	(pt 536 960)
+	(pt 536 1088)
+)
+(connector
+	(pt 592 840)
+	(pt 536 840)
+)
+(connector
+	(pt 536 840)
+	(pt 536 960)
+)
+(connector
+	(pt 592 720)
+	(pt 536 720)
+)
+(connector
+	(pt 536 720)
+	(pt 536 840)
+)
+(connector
+	(pt 592 600)
+	(pt 536 600)
+)
+(connector
+	(pt 536 600)
+	(pt 536 720)
+)
+(connector
+	(pt 592 480)
+	(pt 536 480)
+)
+(connector
+	(pt 536 480)
+	(pt 536 600)
+)
+(connector
+	(pt 592 360)
+	(pt 536 360)
+)
+(connector
+	(pt 536 360)
+	(pt 536 480)
+)
+(connector
+	(pt 592 240)
+	(pt 536 240)
+)
+(connector
+	(pt 536 240)
+	(pt 536 360)
+)
+(connector
+	(pt 592 120)
+	(pt 536 120)
+)
+(connector
+	(pt 536 120)
+	(pt 536 240)
+)
+(connector
+	(pt 592 0)
+	(pt 536 0)
+)
+(connector
+	(pt 536 0)
+	(pt 536 120)
+)
+(connector
+	(pt 592 -120)
+	(pt 536 -120)
+)
+(connector
+	(pt 536 -120)
+	(pt 536 0)
+)
+(connector
+	(pt 592 -240)
+	(pt 536 -240)
+)
+(connector
+	(pt 536 -240)
+	(pt 536 -120)
+)
+(connector
+	(pt 592 -360)
+	(pt 536 -360)
+)
+(connector
+	(pt 536 -480)
+	(pt 536 -360)
+)
+(connector
+	(pt 536 -360)
+	(pt 536 -240)
+)
+(connector
+	(pt 488 1360)
+	(pt 504 1360)
+)
+(connector
+	(pt 592 -512)
+	(pt 504 -512)
+)
+(connector
+	(pt 592 1296)
+	(pt 504 1296)
+)
+(connector
+	(pt 504 1360)
+	(pt 504 1296)
+)
+(connector
+	(pt 592 1168)
+	(pt 504 1168)
+)
+(connector
+	(pt 504 1296)
+	(pt 504 1168)
+)
+(connector
+	(pt 592 1056)
+	(pt 504 1056)
+)
+(connector
+	(pt 504 1168)
+	(pt 504 1056)
+)
+(connector
+	(pt 504 1056)
+	(pt 504 928)
+)
+(connector
+	(pt 592 928)
+	(pt 504 928)
+)
+(connector
+	(pt 504 928)
+	(pt 504 808)
+)
+(connector
+	(pt 592 808)
+	(pt 504 808)
+)
+(connector
+	(pt 504 808)
+	(pt 504 688)
+)
+(connector
+	(pt 592 568)
+	(pt 504 568)
+)
+(connector
+	(pt 504 688)
+	(pt 504 568)
+)
+(connector
+	(pt 504 688)
+	(pt 592 688)
+)
+(connector
+	(pt 592 448)
+	(pt 504 448)
+)
+(connector
+	(pt 504 568)
+	(pt 504 448)
+)
+(connector
+	(pt 592 328)
+	(pt 504 328)
+)
+(connector
+	(pt 504 448)
+	(pt 504 328)
+)
+(connector
+	(pt 504 208)
+	(pt 592 208)
+)
+(connector
+	(pt 504 328)
+	(pt 504 208)
+)
+(connector
+	(pt 592 88)
+	(pt 504 88)
+)
+(connector
+	(pt 504 208)
+	(pt 504 88)
+)
+(connector
+	(pt 592 -32)
+	(pt 504 -32)
+)
+(connector
+	(pt 504 88)
+	(pt 504 -32)
+)
+(connector
+	(pt 592 -152)
+	(pt 504 -152)
+)
+(connector
+	(pt 504 -32)
+	(pt 504 -152)
+)
+(connector
+	(pt 592 -272)
+	(pt 504 -272)
+)
+(connector
+	(pt 504 -152)
+	(pt 504 -272)
+)
+(connector
+	(pt 592 -392)
+	(pt 504 -392)
+)
+(connector
+	(pt 504 -272)
+	(pt 504 -392)
+)
+(connector
+	(pt 504 -392)
+	(pt 504 -512)
+)
+(connector
+	(pt 816 -544)
+	(pt 808 -544)
+)
+(connector
+	(pt 808 -544)
+	(pt 784 -544)
+)
+(connector
+	(pt 784 1296)
+	(pt 744 1296)
+)
+(connector
+	(pt 744 1168)
+	(pt 784 1168)
+)
+(connector
+	(pt 784 1168)
+	(pt 784 1296)
+)
+(connector
+	(pt 744 1056)
+	(pt 784 1056)
+)
+(connector
+	(pt 784 1056)
+	(pt 784 1168)
+)
+(connector
+	(pt 744 928)
+	(pt 784 928)
+)
+(connector
+	(pt 784 928)
+	(pt 784 1056)
+)
+(connector
+	(pt 744 808)
+	(pt 784 808)
+)
+(connector
+	(pt 784 808)
+	(pt 784 928)
+)
+(connector
+	(pt 744 688)
+	(pt 784 688)
+)
+(connector
+	(pt 784 688)
+	(pt 784 808)
+)
+(connector
+	(pt 744 568)
+	(pt 784 568)
+)
+(connector
+	(pt 784 568)
+	(pt 784 688)
+)
+(connector
+	(pt 744 448)
+	(pt 784 448)
+)
+(connector
+	(pt 784 448)
+	(pt 784 568)
+)
+(connector
+	(pt 744 328)
+	(pt 784 328)
+)
+(connector
+	(pt 784 328)
+	(pt 784 448)
+)
+(connector
+	(pt 744 208)
+	(pt 784 208)
+)
+(connector
+	(pt 784 208)
+	(pt 784 328)
+)
+(connector
+	(pt 744 88)
+	(pt 784 88)
+)
+(connector
+	(pt 784 88)
+	(pt 784 208)
+)
+(connector
+	(pt 744 -32)
+	(pt 784 -32)
+)
+(connector
+	(pt 784 -32)
+	(pt 784 88)
+)
+(connector
+	(pt 744 -152)
+	(pt 784 -152)
+)
+(connector
+	(pt 784 -152)
+	(pt 784 -32)
+)
+(connector
+	(pt 744 -272)
+	(pt 784 -272)
+)
+(connector
+	(pt 784 -272)
+	(pt 784 -152)
+)
+(connector
+	(pt 744 -392)
+	(pt 784 -392)
+)
+(connector
+	(pt 784 -392)
+	(pt 784 -272)
+)
+(connector
+	(pt 744 -512)
+	(pt 784 -512)
+)
+(connector
+	(pt 784 -544)
+	(pt 784 -512)
+)
+(connector
+	(pt 784 -512)
+	(pt 784 -392)
+)
+(connector
+	(text "dec[1]" (rect 466 1168 496 1180)(font "Arial" ))
+	(pt 592 1184)
+	(pt 456 1184)
+)
+(connector
+	(text "dec[2]" (rect 466 1056 496 1068)(font "Arial" ))
+	(pt 592 1072)
+	(pt 456 1072)
+)
+(connector
+	(text "dec[3]" (rect 466 928 496 940)(font "Arial" ))
+	(pt 592 944)
+	(pt 456 944)
+)
+(connector
+	(text "dec[4]" (rect 466 808 496 820)(font "Arial" ))
+	(pt 592 824)
+	(pt 456 824)
+)
+(connector
+	(text "dec[5]" (rect 466 688 496 700)(font "Arial" ))
+	(pt 592 704)
+	(pt 456 704)
+)
+(connector
+	(text "dec[6]" (rect 466 568 496 580)(font "Arial" ))
+	(pt 456 584)
+	(pt 592 584)
+)
+(connector
+	(text "dec[7]" (rect 466 448 496 460)(font "Arial" ))
+	(pt 592 464)
+	(pt 456 464)
+)
+(connector
+	(text "dec[8]" (rect 466 328 496 340)(font "Arial" ))
+	(pt 592 344)
+	(pt 456 344)
+)
+(connector
+	(text "dec[9]" (rect 466 208 496 220)(font "Arial" ))
+	(pt 592 224)
+	(pt 456 224)
+)
+(connector
+	(text "dec[10]" (rect 466 88 502 100)(font "Arial" ))
+	(pt 592 104)
+	(pt 456 104)
+)
+(connector
+	(text "dec[11]" (rect 466 -32 502 -20)(font "Arial" ))
+	(pt 456 -16)
+	(pt 592 -16)
+)
+(connector
+	(text "dec[12]" (rect 466 -152 502 -140)(font "Arial" ))
+	(pt 456 -136)
+	(pt 592 -136)
+)
+(connector
+	(text "dec[13]" (rect 466 -272 502 -260)(font "Arial" ))
+	(pt 456 -256)
+	(pt 592 -256)
+)
+(connector
+	(text "dec[14]" (rect 466 -392 502 -380)(font "Arial" ))
+	(pt 592 -376)
+	(pt 456 -376)
+)
+(connector
+	(text "dec[15]" (rect 466 -512 502 -500)(font "Arial" ))
+	(pt 456 -496)
+	(pt 592 -496)
+)
+(connector
+	(text "dec[0]" (rect 466 1296 496 1308)(font "Arial" ))
+	(pt 456 1312)
+	(pt 592 1312)
+)
+(connector
+	(pt 368 1312)
+	(pt 456 1312)
+	(bus)
+)
+(connector
+	(pt 456 -496)
+	(pt 456 -376)
+	(bus)
+)
+(connector
+	(pt 456 -376)
+	(pt 456 -256)
+	(bus)
+)
+(connector
+	(pt 456 -256)
+	(pt 456 -136)
+	(bus)
+)
+(connector
+	(pt 456 -136)
+	(pt 456 -16)
+	(bus)
+)
+(connector
+	(pt 456 -16)
+	(pt 456 104)
+	(bus)
+)
+(connector
+	(pt 456 104)
+	(pt 456 224)
+	(bus)
+)
+(connector
+	(pt 456 224)
+	(pt 456 344)
+	(bus)
+)
+(connector
+	(pt 456 344)
+	(pt 456 464)
+	(bus)
+)
+(connector
+	(pt 456 464)
+	(pt 456 584)
+	(bus)
+)
+(connector
+	(pt 456 584)
+	(pt 456 704)
+	(bus)
+)
+(connector
+	(pt 456 704)
+	(pt 456 824)
+	(bus)
+)
+(connector
+	(pt 456 824)
+	(pt 456 944)
+	(bus)
+)
+(connector
+	(pt 456 944)
+	(pt 456 1072)
+	(bus)
+)
+(connector
+	(pt 456 1072)
+	(pt 456 1184)
+	(bus)
+)
+(connector
+	(pt 456 1184)
+	(pt 456 1312)
+	(bus)
+)
+(junction (pt 536 1328))
+(junction (pt 536 1200))
+(junction (pt 536 1088))
+(junction (pt 536 960))
+(junction (pt 536 840))
+(junction (pt 536 720))
+(junction (pt 536 600))
+(junction (pt 536 480))
+(junction (pt 536 360))
+(junction (pt 536 240))
+(junction (pt 536 120))
+(junction (pt 536 0))
+(junction (pt 536 -120))
+(junction (pt 536 -240))
+(junction (pt 536 -360))
+(junction (pt 504 1296))
+(junction (pt 504 1168))
+(junction (pt 504 1056))
+(junction (pt 504 928))
+(junction (pt 504 808))
+(junction (pt 504 688))
+(junction (pt 504 568))
+(junction (pt 504 448))
+(junction (pt 504 328))
+(junction (pt 504 208))
+(junction (pt 504 88))
+(junction (pt 504 -32))
+(junction (pt 504 -152))
+(junction (pt 504 -272))
+(junction (pt 504 -392))
+(junction (pt 808 -544))
+(junction (pt 784 1168))
+(junction (pt 784 1056))
+(junction (pt 784 928))
+(junction (pt 784 808))
+(junction (pt 784 688))
+(junction (pt 784 568))
+(junction (pt 784 448))
+(junction (pt 784 328))
+(junction (pt 784 208))
+(junction (pt 784 88))
+(junction (pt 784 -32))
+(junction (pt 784 -152))
+(junction (pt 784 -272))
+(junction (pt 784 -392))
+(junction (pt 784 -512))
+(junction (pt 456 1312))
+(junction (pt 456 -376))
+(junction (pt 456 -256))
+(junction (pt 456 -136))
+(junction (pt 456 -16))
+(junction (pt 456 104))
+(junction (pt 456 224))
+(junction (pt 456 344))
+(junction (pt 456 464))
+(junction (pt 456 584))
+(junction (pt 456 704))
+(junction (pt 456 824))
+(junction (pt 456 944))
+(junction (pt 456 1072))
+(junction (pt 456 1184))
