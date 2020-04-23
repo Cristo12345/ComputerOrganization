@@ -15,3 +15,9 @@ In this lab, I designed a miniature Arithmetic Logic Unit (ALU) using VHDL. The 
 This lab's purpose was to simulate Static Random Access Memory (SRAM) using D-latches and Flip-Flops. The components of this project were built using Quartus Block Diagrams. The goal of this lab was to be able to create a simulation of reading and writing into different addresses of memory using an Altera DE2 board. A demo is provided in the video. 
 
 [![SRAM demo vid](https://img.youtube.com/vi/fhxdjszO8r4/0.jpg)](https://youtu.be/fhxdjszO8r4)
+
+
+### Recursive Call Memory
+A take home lab to observe how recursive calls are handled in memory across different platforms. I use the Euclidean Greatest Common Divisor (GCD) algorithm for example. The different platforms I look at are MIPS instruction set on a MARS simulator, x86 Intel Processor on Microsoft Visual Studio IDE, and a 64-bit Intel Processor on a Linux platform. My findings are shown in this video. 
+
+[![Recursive Call demo vid](https://img.youtube.com/vi/W-BlNczyV30/0.jpg)](https://youtu.be/W-BlNczyV30)
